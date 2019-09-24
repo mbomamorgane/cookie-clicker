@@ -1,66 +1,74 @@
-    body{
-    box-sizing: border-box;   
-    margin: 0;
-    padding: 0;
-    background-color: blue;
-    }
-    
-    
-    .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .BarredeScore{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+@font-face {    
+font-family: 'komikandyregular';
+src: url('komiknd-webfont.woff2') format('woff2'),         
+url('komiknd-webfont.woff') format('woff');    
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.BarredeScore {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#barrescore {
+	background-image: url(./Images/Barre_de_Score.svg);
+	background-repeat: no-repeat;
+	height: 110px;
+	color: #FFFF;
+	text-align: center;
+	padding-top: 5%;
+	margin-left: 7%;
+	PADDING-RIGHT: 9%;
+	font-family:Komikandy;
+}
+.Imagebarrescore {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.tete {
+	text-align: center;
+}
+.Cookieboost {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/*IMAGE DES COOKIES */
+#Imagebonus , #ImageBoost {
+	width: 50%;
+	height: auto;
+}
 
 
-    }
-    #barrescore{
-        background-image: url(./Images/Barre_de_Score.svg);
-        background-repeat: no-repeat;
-        height: 110px;
-        color: #FFFF;
-        text-align: center;
-        padding-top: 5%;
-        margin-left: 7%;
-        PADDING-RIGHT: 9%;
-        
-    }
-    .Imagebarrescore{
-        text-align: center;
-        margin-top: 10%;
-        margin-bottom: 5%;  
-    
-    }
-    .tete{
-        text-align: center;
+#Imagecookie {
+	width: 50%;
+	height: auto;
+}
+/*IMAGE ANIMATION ON CLICK*/
+#Imagebonus:active{
+	transform:translateY(5px);}
+#ImageBoost:active {
+	transform: translateY(5px);}
+#Imagecookie:active {
+	transform: translateY(5px);}
 
-    }
-    .Cookieboost{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-    }
-  #Imagebonus,#ImageBoost{
-     width: 50%;
-    height: auto;
-
-  }
-
-  #Imagecookie{
-    width: 50%;
-    height: auto;
-
-
-  }
-   #Imagebarresbonus{
-       text-align: center;
-   }
-   .Boostbonus{
-    display: flex;
-    flex-direction: column;
-
-   }
+#Imagebarresbonus {
+	text-align: center;
+}
+.Boostbonus {
+	display: flex;
+	flex-direction: column;
+}
