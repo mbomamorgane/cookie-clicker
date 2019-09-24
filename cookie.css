@@ -1,66 +1,66 @@
     body{
-    box-sizing: border-box;   
+    box-sizing: content-box;   
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color:#034660;
     }
     
     
-    .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .BarredeScore{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin-top: 5%;
+    
 
 
     }
-    #barrescore{
+#barrescore{
         background-image: url(./Images/Barre_de_Score.svg);
         background-repeat: no-repeat;
-        height: 110px;
+        height: 100px;
         color: #FFFF;
         text-align: center;
-        padding-top: 5%;
-        margin-left: 7%;
-        PADDING-RIGHT: 9%;
+        padding-top: 7%;
+        margin-left: 3%;
+        padding-top: 9%;
         
-    }
+    } 
     .Imagebarrescore{
-        text-align: center;
+       text-align: center;
         margin-top: 10%;
         margin-bottom: 5%;  
     
     }
-    .tete{
-        text-align: center;
+  
+    /* .tete{
+       
+       margin-top: 2%;
+       margin-bottom: 5%;
+       width:75%;
+    } */
 
+    #ImageTete{
+        margin-top: 2%;
+        margin-bottom:5%;
+       
     }
     .Cookieboost{
         display: flex;
         flex-direction: row;
         justify-content:space-around;
     }
-  #Imagebonus,#ImageBoost{
-     width: 50%;
+  #Imagebonus{
+    width: 100%;
     height: auto;
-
   }
 
-  #Imagecookie{
-    width: 50%;
+  #ImageAuto{
+    width: 100%;
     height: auto;
-
-
   }
-   #Imagebarresbonus{
-       text-align: center;
-   }
-   .Boostbonus{
-    display: flex;
-    flex-direction: column;
 
-   }
+  #ImageBoost {
+      width: 100%;
+      height: auto;
+  }
+ 

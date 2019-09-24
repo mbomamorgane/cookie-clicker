@@ -3,54 +3,48 @@
 
 <head>
     <?xml version="1.0" encoding="utf-8"?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="cookie.css">
     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-    <title>cookies</title>
+    <title>Monster clicker</title>
 </head>
 
 <body>
-    <div class="main">
-            
-        <div class="BarredeScore">
-            
-            <!--ID= Imagebarretitre-->
-            <img id="barretitre" src="./Images/Entete-Nom_Du_Clicker.svg">
-            <!--ID= Imagebarrescore-->
-            <div id="barrescore"</div>
-        </div>
-        <div class="tete">
-            <!--ID= ImageTete-->
-            <img id=ImageTete src="./Images/Tete.svg">
-        </div>
+    <header class="container-fluid">
+    
+            <div class="BarredeScore">
+                <img id="barretitre" src="./Images/Entete-Nom_Du_Clicker.svg">
 
-        <div class="Boostbonus">
-
-            <div class="Cookieboost">
-
-                <div class="boost">
-                <!--Id= "ImageBoost"-->
-                <img id="ImageBoost" src="./Images/Cookie_Boost.svg">
-                </div>
-                
-                <div class="cookie" onclick="cliker()" >
-                    <!--Id="Imagecliker"-->
-                    <img id="Imagecookie"  src="./Images/Cookie_A_Cliquer.svg">
-                </div>
-                <div class="bonus">
-                    <!--Id="Imagebonus"-->
-                    <img id="Imagebonus" src="./Images/Cookie_Bonus.svg">
-                </div>
+                <div id="barrescore"> </div> 
             </div>
 
-            <!--Id="Imagebarresbonus"-->
-            <img id="Imagebarresbonus" src="./Images/Barre_de_Bonus.svg">
-        </div>
+            <div class="tete" onclick="cliker()">
+                <img id=ImageTete src="./Images/TeteClick.svg">
+            </div>
 
+            
+                <div class="Cookieboost">
 
+                    <div class="boost">
+                        <img id="ImageBoost" src="./Images/carteBoost.svg">
+                    </div>
+            
+                    <div class="auto">
+                        <img id="ImageAuto" src="./Images/carteAuto.svg">
+                    </div>
+            
+                    <div class="bonus">
+                        <img id="Imagebonus" src="./Images/carteBonus.svg">
+                    </div>
+            
+                </div> 
 
     </div>
+    
     <script src="cookie.js"> </script>
 </body>
 
