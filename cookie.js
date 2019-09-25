@@ -45,7 +45,7 @@ function multiplierpar2() {
   if (score >= prixMultiplicateur) { // verifie que le score est plus grand ou egale au prix
     multiplicateur = multiplicateur * 2; // alors multiplicateur x2
     score -= prixMultiplicateur; // soustrait le prix par rapport au score 
-    prixMultiplicateur=prixMultiplicateur*2;
+    prixMultiplicateur = prixMultiplicateur * 2;
     document.getElementById("score").innerHTML = score; // affiche nouveau score 
     document.getElementById("txtBoost").innerHTML = "cost:" + prixMultiplicateur;
   }
