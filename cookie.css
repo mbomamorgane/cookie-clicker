@@ -1,0 +1,130 @@
+@font-face {    
+font-family: 'komikandy';
+src: url('KOMIKND.ttf') format('truetype'),         
+url('KOMIKND.ttf') format('truetype');    
+}
+@media (min-width: 1025px) and (max-width: 2066px) {
+    #ImageTete {
+        margin: auto;
+        width: 25% !important;
+        margin-top: 4% !important;
+    }
+    .BarredeScore {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around ;
+        width: 25% !important;
+        margin-left: 39%;
+    }
+    #barrescore{
+        margin-top: 6%;
+    }
+    #score{
+        margin-bottom: -20% !important;
+	} 
+	
+}
+
+body {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	background-color: #034660;
+}
+#conteur{
+
+	text-align: center;
+	font-family: "komikandy";
+	margin-top: -2%;
+
+
+}
+
+.BarredeScore {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+#score{
+	color:#FFF;
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-top:-18%;
+	margin-bottom:20%;
+	font-family:Komikandy;
+	font-size:15px;
+	}
+.Imagebarrescore {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.conteneurScore{
+	text-align: center;
+}
+
+.tete {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: -4%;
+    margin-bottom: 2%;
+}
+#ImageTete {
+	margin: auto;
+	width: 80%;
+}
+.Cookieboost {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#Imagebonus {
+	width: 100%;
+	height: auto;
+}
+#ImageAuto {
+	width: 100%;
+	height: auto;
+}
+#ImageBoost {
+	width: 100%;
+	height: auto;
+}
+/*IMAGE ANIMATION ON CLICK*/
+ 
+#ImageAuto:active {
+	transform: translateY(5px);
+}
+#Imagebonus:active {
+	transform: translateY(5px);
+}
+#ImageBoost:active {
+	transform: translateY(5px);
+}
+#ImageTete:active {
+	transform: translateY(5px);
+}
+
+#txtBoost {
+	font-family: "komikandy";
+	color: #034660;
+    margin-top: -38%;
+    margin-left: 25%;
+}
+#txtBonus {
+	font-family: "komikandy";
+	color: #034660;
+    margin-top: -38%;
+    margin-left: 25%;
+}
+#txtAuto {
+	font-family: "komikandy";
+	color: #034660;
+    margin-top: -38%;
+    margin-left: 25%;
+}
+}
