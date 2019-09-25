@@ -11,4 +11,4 @@
 - css 
 - javascript
 
-<img src="./monsterClicker.png" style="width:30% ;">
+
