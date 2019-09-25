@@ -1,12 +1,12 @@
 
-#Cookie monster Clicker
+# Cookie monster Clicker
 
 
 
-##Logiciel utilisé  pour le design:
+## Logiciel utilisé  pour le design:
 - illustrator. 
 
-##Langage utilisé 
+## Langage utilisé 
 
 - html 
 - css 
