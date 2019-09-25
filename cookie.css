@@ -1,66 +1,75 @@
-    body{
-    box-sizing: border-box;   
-    margin: 0;
-    padding: 0;
-    background-color: blue;
-    }
-    
-    
-    .main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .BarredeScore{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+@font-face {    
+font-family: 'komikandy';
+src: url('KOMIKND.ttf') format('truetype'),         
+url('KOMIKND.ttf') format('truetype');    
+}
+body {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	background-color: #034660;
+}
+.BarredeScore {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+#barrescore {
+	
+}
+#score{
+	color:#FFF;
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-top:-18%;
+	margin-bottom:20%;
+	font-family:Komikandy;
+	font-size:15px;
+	}
+.Imagebarrescore {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
 
-
-    }
-    #barrescore{
-        background-image: url(./Images/Barre_de_Score.svg);
-        background-repeat: no-repeat;
-        height: 110px;
-        color: #FFFF;
-        text-align: center;
-        padding-top: 5%;
-        margin-left: 7%;
-        PADDING-RIGHT: 9%;
-        
-    }
-    .Imagebarrescore{
-        text-align: center;
-        margin-top: 10%;
-        margin-bottom: 5%;  
-    
-    }
-    .tete{
-        text-align: center;
-
-    }
-    .Cookieboost{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-    }
-  #Imagebonus,#ImageBoost{
-     width: 50%;
-    height: auto;
-
-  }
-
-  #Imagecookie{
-    width: 50%;
-    height: auto;
-
-
-  }
-   #Imagebarresbonus{
-       text-align: center;
-   }
-   .Boostbonus{
-    display: flex;
-    flex-direction: column;
-
-   }
+.tete {
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+#ImageTete {
+	margin: auto;
+	width: 80%;
+}
+.Cookieboost {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#Imagebonus {
+	width: 100%;
+	height: auto;
+}
+#ImageAuto {
+	width: 100%;
+	height: auto;
+}
+#ImageBoost {
+	width: 100%;
+	height: auto;
+}
+/*IMAGE ANIMATION ON CLICK*/
+ 
+#ImageAuto:active {
+	transform: translateY(5px);
+}
+#Imagebonus:active {
+	transform: translateY(5px);
+}
+#ImageBoost:active {
+	transform: translateY(5px);
+}
+#ImageTete:active {
+	transform: translateY(5px);
+}
